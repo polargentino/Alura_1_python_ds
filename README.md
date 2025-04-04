@@ -161,6 +161,7 @@ nombre = input('Ingrese su nombre: ')
 print(f'¡Hola, {nombre}!')
 
 Copia el código
+
 2 - Podemos solicitar el nombre y la edad con la función input y asignar el resultado de la salida a una variable. En el caso de la edad, es necesaria una conversión de la salida de input a un valor entero con la función int(). A continuación, podemos imprimir el resultado de las recopilaciones en la función print usando la formateación f-string.
 
 nombre = input('Ingrese su nombre: ')
@@ -168,6 +169,7 @@ edad = int(input('Ingrese su edad: '))
 print(f'¡Hola, {nombre}, tienes {edad} años!')
 
 Copia el código
+
 3 - Podemos solicitar el nombre, la edad y la altura con la función input y asignar el resultado de la salida a una variable. En el caso de la edad, es necesaria una conversión de la salida de input a un valor entero con la función int(). Para la altura, es necesario realizar una conversión al tipo de valor flotante con la función float(). A continuación, podemos imprimir el resultado de las recopilaciones en la función print usando la formateación f-string.
 
 nombre = input('Ingrese su nombre: ')
@@ -176,6 +178,7 @@ altura = float(input('Ingrese su altura: '))
 print(f'¡Hola, {nombre}, tienes {edad} años y mides {altura} metros!')
 
 Copia el código
+
 Calculadora con operadores
 
 1 - Podemos recopilar los dos valores con input y convertir la salida a un número entero con la función int(). Luego, podemos mostrar el resultado de la suma entre las dos entradas con +.
@@ -183,114 +186,154 @@ Calculadora con operadores
 a = int(input('Ingrese el primer valor: '))
 b = int(input('Ingrese el segundo valor: '))
 print(a + b)
+
 Copia el código
+
 2 - Usando la misma lógica que en la pregunta anterior, podemos recopilar los tres valores con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la suma de los tres valores con +.
 
 a = int(input('Ingrese el primer valor: '))
 b = int(input('Ingrese el segundo valor: '))
 c = int(input('Ingrese el tercer valor: '))
 print(a + b + c)
+
 Copia el código
+
 3 - Podemos recopilar los dos valores con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la resta del primer valor menos el segundo valor con -.
 
 a = int(input('Ingrese el primer valor: '))
 b = int(input('Ingrese el segundo valor: '))
 print(a - b)
+
 Copia el código
+
 4 - Podemos recopilar los dos valores con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la multiplicación de los dos valores con *.
 
 a = int(input('Ingrese el primer valor: '))
 b = int(input('Ingrese el segundo valor: '))
 print(a * b)
+
 Copia el código
+
 5 - Podemos recopilar el numerador y denominador con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la división entre los dos valores con /.
 
 numerador = int(input('Ingrese el numerador: '))
 denominador = int(input('Ingrese el denominador (OBS: el valor no puede ser nulo): '))
 print(numerador / denominador)
+
 Copia el código
+
 6 - Podemos recopilar el operador y potencia con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la exponenciación entre estos dos valores con **.
 
 operador = int(input('Ingrese el valor del operador: '))
 potencia = int(input('Ingrese el valor de la potencia: '))
 print(operador ** potencia)
+
 Copia el código
+
 7 - Podemos recopilar el numerador y denominador con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado de la división entera entre los dos valores con //.
 
 numerador = int(input('Ingrese el numerador: '))
 denominador = int(input('Ingrese el denominador (OBS: el valor no puede ser nulo): '))
 print(numerador // denominador)
+
 Copia el código
+
 8 - Podemos recopilar el numerador y denominador con input y convertir la salida a números enteros con la función int(). Luego, podemos mostrar el resultado del resto de la división entre los dos valores con %.
 
 numerador = int(input('Ingrese el numerador: '))
 denominador = int(input('Ingrese el denominador (OBS: el valor no puede ser nulo): '))
 print(numerador % denominador)
+
 Copia el código
+
 9 - Podemos recopilar las tres notas con input y convertir la salida a números con decimales utilizando la función float(). Luego, podemos mostrar el resultado del promedio entre las tres variables sumando las notas con + y dividiendo la suma entre 3.
 
 nota_1 = float(input('Ingrese la 1° nota: '))
 nota_2 = float(input('Ingrese la 2° nota: '))
 nota_3 = float(input('Ingrese la 3° nota: '))
 print(f'Media {(nota_1+nota_2+nota_3)/3}.')
+
 Copia el código
+
 10 - Calculamos la media ponderada multiplicando los pesos por sus respectivos valores y sumando el resultado de cada multiplicación. El valor de estas sumas se divide entre la suma total de los pesos. Con el comando print, imprimimos el resultado del cálculo de la media.
 
 media_ponderada = (5*1 + 12*2 + 20*3 + 15*4) / (1+2+3+4)
 print(f'Media {media_ponderada}.')
+
 Copia el código
+
 Editando textos
 
 1 - Definimos una frase arbitraria entre comillas simples y la imprimimos insertando la variable en un comando print.
 
 frase = '¡Hola Python!'
 print(frase)
+
 Copia el código
+
 2 - Recopilamos una frase utilizando la función input y luego imprimimos el resultado con el comando print.
 
 frase = input('Escribe una frase: ')
 print(frase)
+
 Copia el código
+
 3 - Recopilamos una frase utilizando la función input y luego mostramos su valor en mayúsculas utilizando el método upper. Podemos mostrar la salida de esto en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.upper())
+
 Copia el código
+
 4 - Recopilamos una frase utilizando la función input y luego mostramos su valor en minúsculas utilizando el método lower. Podemos mostrar la salida de esto en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.lower())
+
 Copia el código
+
 5 - Para este ejemplo, es interesante definir una frase con espacios al principio y al final de la frase. Una vez hecho esto, podemos eliminar estos espacios utilizando el método strip y mostrar el resultado en un comando print.
 
 frase = ' ¡Hola Python! '
 print(frase.strip())
+
 Copia el código
+
 6 - Recopilamos una frase utilizando la función input, incluso si no estamos seguros de si tendrá espacios al principio y al final de la frase. Luego, podemos eliminar estos espacios utilizando el método strip. El resultado se puede mostrar en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.strip())
+
 Copia el código
+
 7 - Recopilamos una frase utilizando la función input, incluso si no estamos seguros de si tendrá espacios al principio y al final de la frase. Luego, eliminamos estos espacios utilizando el método strip y también usamos el método lower junto con strip. El resultado se puede mostrar en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.strip().lower())
+
 Copia el código
+
 8 - Recopilamos una frase utilizando la función input. Para asegurarnos de que los caracteres no estén en mayúsculas, convertimos toda la frase a minúsculas utilizando el método lower y luego aplicamos el método replace, definiendo el valor a reemplazar como 'e' y el nuevo valor como 'f'. El resultado se muestra en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.lower().replace('e','f'))
+
 Copia el código
+
 9 - Recopilamos una frase utilizando la función input. Para asegurarnos de que los caracteres no estén en mayúsculas, convertimos toda la frase a minúsculas utilizando el método lower y luego aplicamos el método replace, definiendo el valor a reemplazar como 'a' y el nuevo valor como el carácter 64 según la tabla Unicode, que corresponde al carácter @. El resultado se muestra en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.lower().replace('a',chr(64)))
+
 Copia el código
+
 10 - Recopilamos una frase utilizando la función input. Para asegurarnos de que los caracteres no estén en mayúsculas, convertimos toda la frase a minúsculas utilizando el método lower y luego aplicamos el método replace, definiendo el valor a reemplazar como 's' y el nuevo valor como el carácter 36 según la tabla Unicode, que corresponde al símbolo $. El resultado se muestra en un comando print.
 
 frase = input('Escribe una frase: ')
 print(frase.lower().replace('s',chr(36)))
+
 Copia el código
+
 Ejercitarse es importante para consolidar el contenido, desarrollar habilidades de codificación, identificar puntos que aún no se han comprendido, prepararse para desafíos futuros, desarrollar el pensamiento lógico y la resolución de problemas.
 
 Teniendo esto en cuenta, es interesante realizar muchos ejercicios cuando se está aprendiendo un nuevo lenguaje de programación. Por lo tanto, busca completar los ejercicios propuestos y observa cómo te ayudan a progresar en tus habilidades de codificación.
