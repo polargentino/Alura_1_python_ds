@@ -90,7 +90,7 @@ Si tienes alguna pregunta, utiliza el foro o nuestra comunidad en Discord.
 
 
 ### Manipulando datos en Pythnon
-## esafío: ¡Es hora de practicar! (2)
+## Desafío: ¡Es hora de practicar! (2)
  Siguiente pregunta
 
 Vamos a practicar el uso de varios tipos de variables y la función input a través de algunas actividades. Resuelve los problemas propuestos en código.
