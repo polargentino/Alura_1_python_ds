@@ -377,16 +377,19 @@ Tres lados forman un triángulo cuando la suma de cualesquiera dos lados es mayo
 Triángulo Equilátero: tres lados iguales;
 Triángulo Isósceles: dos lados iguales;
 Triángulo Escaleno: tres lados diferentes.
+
 12 - Un establecimiento está vendiendo combustibles con descuentos variables. Para el etanol, si la cantidad comprada es de hasta 15 litros, el descuento será del 2% por litro. En caso contrario, será del 4% por litro. Para el diésel, si la cantidad comprada es de hasta 15 litros, el descuento será del 3% por litro. En caso contrario, será del 5% por litro. El precio por litro de diésel es de R$ 2,00 y el precio por litro de etanol es de R$ 1,70. Escribe un programa que lea la cantidad de litros vendidos y el tipo de combustible (E para etanol y D para diésel) y calcule el valor a pagar por el cliente. Ten en cuenta algunas sugerencias:
 
 El valor del descuento será el producto del precio por litro, la cantidad de litros y el valor del descuento.
 El valor a pagar por un cliente será el resultado de la multiplicación del precio por litro por la cantidad de litros menos el valor del descuento resultante del cálculo.
+
 13 - En una empresa de venta de bienes raíces, debes crear un código que analice los datos de ventas anuales para ayudar a la dirección en la toma de decisiones. El código debe recopilar los datos de cantidad de ventas durante los años 2022 y 2023 y calcular la variación porcentual. A partir del valor de la variación, se deben proporcionar las siguientes sugerencias:
 
 Para una variación superior al 20%: bonificación para el equipo de ventas.
 Para una variación entre el 2% y el 20%: pequeña bonificación para el equipo de ventas.
 Para una variación entre el 2% y el -10%: planificación de políticas de incentivo a las ventas.
 Para bonificaciones inferiores al -10%: recorte de gastos.
+
 Si necesitas ayuda, las opciones de solución para las actividades estarán disponibles en la sección "Opinión del instructor".
 
 ## Opinión del instructor (3)
@@ -405,11 +408,13 @@ elif num2 > num1:
     print(f'El segundo número es mayor: {num2}')
 else: # En caso de que los números sean iguales
     print('Ambos números son iguales.')
+
 Copia el código
+
 2 -
 
 # Recolectamos el porcentaje
-variación = float(input('Ingrese el porcentaje de crecimiento: ')
+variación = float(input('Ingrese el porcentaje de crecimiento: '))
 # Verificamos si el valor es positivo o negativo con una comparación para ver si el número
 # es mayor o menor que 0
 if variación > 0:
@@ -418,7 +423,9 @@ elif variación < 0:
     print(f'Hubo un decrecimiento del {variación}%')
 else:
     print('No hubo crecimiento ni decrecimiento.')
+
 Copia el código
+
 3 - Podemos verificar si una letra es una vocal o una consonante al comprobar si el carácter está contenido en una cadena de vocales utilizando el operador in.
 
 # Recolectamos la letra del usuario en minúsculas
@@ -429,7 +436,9 @@ if letra in vocales:
     print('La letra es una vocal.')
 else:
     print('La letra es una consonante.')
+
 Copia el código
+
 4 - Comparamos cada valor con los otros dos valores correspondientes a los otros dos años y determinamos el valor más alto y el más bajo. Lo hacemos asignando inicialmente el valor de precio_ano1 como el valor máximo y, si encontramos un valor mayor, actualizamos la variable mayor. Utilizamos una lógica similar para encontrar el valor mínimo.
 
 # Recolectamos los precios de los 3 años
@@ -451,9 +460,10 @@ if precio_ano3 < menor:
 # Mostramos los resultados
 print(f'El precio más alto fue de R$ {mayor}.')
 print(f'El precio más bajo fue de R$ {menor}.')
-Copia el código
-5 -
 
+Copia el código
+
+5 -
 # Recolectamos el precio de tres productos
 producto1 = float(input('Ingrese el precio del primer producto: '))
 producto2 = float(input('Ingrese el precio del segundo producto: '))
@@ -467,7 +477,9 @@ elif producto2 < producto1 and producto2 < producto3:
     print('El segundo producto es el más barato.')
 else:
     print('El tercer producto es el más barato.')
+
 Copia el código
+
 6 - Después de recolectar los 3 números, realizamos comparaciones siguiendo una lógica similar a la pregunta anterior. Utilizamos el operador lógico and para determinar cuál es el número más grande entre los 3 datos de productos, luego verificamos entre los dos más pequeños y finalmente utilizamos print para mostrar los números en orden descendente mediante varias declaraciones condicionales anidadas.
 
 # Recolectamos los 3 números
@@ -500,9 +512,10 @@ else:
     else:
         print(num2)
         print(num1)
-Copia el código
-7 -
 
+Copia el código
+
+7 -
 # Recolectamos el turno de estudio
 turno = input('Ingresa en qué turno estudias (mañana, tarde o noche): ')
 
@@ -515,7 +528,9 @@ elif turno == 'noche':
   print('¡Buenas Noches!')
 else:
   print('¡Valor Inválido!')
+
 Copia el código
+
 8 - Podemos usar el operador de módulo % para determinar si un número es par o impar. Si la división entera de un número entre 2 da como resultado 0, entonces es par. Si no, es impar. Esto se debe a que todos los números pares son divisibles por 2, por lo que no tienen un residuo en la división.
 
 # Recolectamos los datos
@@ -526,19 +541,22 @@ if num % 2 == 0:
     print('El número es par.')
 else:
     print('El número es impar.')
+
 Copia el código
+
 9 - Podemos usar el operador de módulo % para determinar si un número es entero o decimal. Si el operador de módulo % devuelve cero en la división entera de un número entre 1, entonces es un número entero. De lo contrario, es un número decimal.
 
 # Recolectamos los datos
 num = float(input('Ingresa un número: '))
 # Verificamos si el número es entero o decimal según el resultado del módulo
-si num % 1 == 0:
+if num % 1 == 0:
     print('El número es entero.')
 else:
     print('El número es decimal.')
-Copia el código
-10 -
 
+Copia el código
+
+10 -
 # Recolectamos los números a operar y solicitamos la operación deseada por el usuario
 num1 = float(input('Ingrese el primer número: '))
 num2 = float(input('Ingrese el segundo número: '))
@@ -572,7 +590,9 @@ si el resultado % 2 == 0:
     print('El resultado es un número par.')
 else:
     print('El resultado es un número impar.')
+
 Copia el código
+
 11 - Después de recolectar los valores de los 3 lados de un triángulo, debemos verificar si realmente pueden formar un triángulo siguiendo el consejo "Tres lados forman un triángulo cuando la suma de cualquier par de lados es mayor que el tercer lado". Esta verificación se puede realizar con el operador "and". Luego, podemos verificar si todos los lados son iguales, lo que forma un triángulo equilátero, o si todos los lados son diferentes, lo que forma un triángulo escaleno. Estas verificaciones se pueden realizar con el operador "and" y los operadores "== y "! =". Finalmente, utilizamos "else" para el caso de un triángulo isósceles.
 
 # Recolectamos los lados de un triángulo
@@ -593,9 +613,10 @@ if (lado1 + lado2 > lado3) and (lado2 + lado3 > lado1) and (lado1 + lado3 > lado
         print('El triángulo es isósceles.')
 else:
     print('¡Los valores no pueden formar un triángulo!')
-Copia el código
-12 -
 
+Copia el código
+
+12 -
 # Recolectamos la cantidad de litros y el tipo de combustible,
 # convirtiendo el carácter en mayúsculas para facilitar nuestro análisis
 cantidad_litros = float(input('Ingrese la cantidad de litros vendidos: '))
@@ -630,10 +651,11 @@ valor_descuento = precio_litro * cantidad_litros * descuento
 valor_pagado = precio_litro * cantidad_litros - valor_descuento
 
 # Resultado
-print(f'Valor a pagar por el cliente: R$ {valor_pagado}')COPIAR CÓDIGO
-Copia el código
-13 -
+print(f'Valor a pagar por el cliente: R$ {valor_pagado}')
 
+Copia el código
+
+13 -
 # Recolectamos las ventas de los dos años
 venta_2022 = float(input('Ingrese la cantidad de ventas en 2022: '))
 venta_2023 = float(input('Ingrese la cantidad de ventas en 2023: '))
@@ -652,6 +674,7 @@ else:
     print('Recorte de gastos.')
 
 Copia el código
+
 Ejercitarse es importante para consolidar el contenido, desarrollar habilidades de codificación, identificar puntos que aún no se han comprendido, prepararse para desafíos futuros, desarrollar el pensamiento lógico y la resolución de problemas.
 
 Teniendo esto en cuenta, es interesante realizar muchos ejercicios cuando se está aprendiendo un nuevo lenguaje de programación. Por lo tanto, busca completar los ejercicios propuestos y observa cómo te ayudan a progresar en tus habilidades de codificación.
